@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dawaline *.css
+recursive-include dawaline *.csv
+recursive-include dawaline *.html
+recursive-include dawaline *.ico
+recursive-include dawaline *.js
+recursive-include dawaline *.json
+recursive-include dawaline *.md
+recursive-include dawaline *.png
+recursive-include dawaline *.py
+recursive-include dawaline *.svg
+recursive-include dawaline *.txt
+recursive-exclude dawaline *.pyc
